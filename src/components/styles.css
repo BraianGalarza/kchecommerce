@@ -1,0 +1,59 @@
+/* Header */
+header{
+    background: azure;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+/* Menú */
+.menu {
+    width: 100%;
+    float: left;
+    margin: 0 auto; 
+}
+
+/* Logo */
+.logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 0px; 
+}
+
+/* Nav */
+.nav_menu {
+  float: right;
+  padding-right: 70px; 
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 50px;
+  padding: 22px 0;
+  float: left;
+  position: relative;
+  text-align: center; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1e2222;
+    font-weight: bold; 
+}
+
+nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: #13161a;
+    height: 5px;
+    top: 0%;
+    position: absolute;
+    transition: width 0.3s; 
+}
+
+nav ul li a:hover::before {
+    width: 100%; 
+}
+      
