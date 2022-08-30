@@ -56,4 +56,8 @@ nav ul li a::before {
 nav ul li a:hover::before {
     width: 100%; 
 }
+
+.icono-cart{
+    align-items: center;
+}
       
