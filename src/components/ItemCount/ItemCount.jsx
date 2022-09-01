@@ -1,19 +1,47 @@
-import React, { useState } from 'react'
-import './ItemCount.css'
+import React from 'react';
+import { useState } from 'react';
 
-function ItemCount() {
-    const[contador,setContador] = useState(0)
-    return (
-    <div>
-        <button onClick={() => setContador(contador - 1)}>
-            -
+// import './styles/ItemCount.css';
+
+const ItemCount = ({ onAdd, initial, stock }) => {
+
+  //hook de estado
+  const [qty, setQty] = useState(initial);
+  const addProduct = (num) => {
+    setQty(qty + num);
+  };
+
+  return (
+    <div className="count-container">
+      <div className="count-container__contador">
+        <button
+          className="count-container__button"
+          onClick={() => addProduct(-1)}
+          disabled={qty === initial}
+        >
+          -
         </button>
-        <span>{contador}</span>
-        <button onClick={() => setContador(contador + 1)}>
-            +
+        <span className="count-container__qty">{qty}</span>
+        <button
+          className="count-container__button"
+          onClick={() => addProduct(+1)}
+          disabled={qty === stock}
+        >
+          +
         </button>
+      </div>
+
+      <button
+        className="button-primary"
+        onClick={() => {
+          onAdd(qty);
+        }}
+        disabled={stock === 0 ? true : null}
+      >
+        Añadir
+      </button>
     </div>
-  )
-}   
+  );
+};
 
-export default ItemCount
+export default ItemCount;

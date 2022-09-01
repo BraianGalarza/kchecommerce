@@ -3,7 +3,7 @@ import './App.css';
 import React from 'react';
 import NavBar from './components/NavBar/NavBar.js';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer.jsx';
-import Card from './components/Card/Card.js';
+import CardBox from './components/Card/Card.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -12,14 +12,14 @@ function App() {
       <NavBar/>
       <ItemListContainer>
         <div className='ItemListContainer'>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
+          <CardBox/>
+          <CardBox/>
+          <CardBox/>
+          <CardBox/>
+          <CardBox/>
+          <CardBox/>
+          <CardBox/>
+          <CardBox/>
         </div>
       </ItemListContainer>
     </div>
