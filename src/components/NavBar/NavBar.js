@@ -13,11 +13,11 @@ const NavBar = () => {
                     <img className='logo' src={logo} alt="logo"/>
                     <nav className='nav_menu'>
                         <ul>
-                            <li><a href="">Inicio</a></li>
-                            <li><a href="">Productos</a></li>
-                            <li><a href="">Clientes</a></li>
-                            <li><a href="">Contacto</a></li>
-                            <li><a href="">Nosotros</a></li>
+                            <li><a>Inicio</a></li>
+                            <li><a>Productos</a></li>
+                            <li><a>Clientes</a></li>
+                            <li><a>Contacto</a></li>
+                            <li><a>Nosotros</a></li>
                             <li><CartWidget /></li>
                         </ul>
                     </nav>
