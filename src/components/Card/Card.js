@@ -15,8 +15,6 @@ function CardBox() {
           Descripción del Producto
         </Card.Text>
         <ItemCount onAdd={onAdd} initial={1} stock={7} />
-        <br/>
-        <Button variant="primary">Agregar al Carrito</Button>
       </Card.Body>
     </Card>
   );

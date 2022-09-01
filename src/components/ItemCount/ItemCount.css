@@ -1,3 +1,19 @@
 span {
     padding: 10px;
 }
+button {
+    border: none;
+    background: none;  
+  }
+  
+  .button-primary {
+    background-color: dodgerblue;
+    border: none;
+    font-family: var(--mulish-font);
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 20px auto;
+    width: 112px;
+    height: 36px;
+    cursor: pointer;
+  }
