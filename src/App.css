@@ -40,6 +40,10 @@
   /* align-items: top;
   text-align: top; */
 }
+.ItemListContainer img{
+  height: 200px;
+  width: 200px;
+}
 
 
 @keyframes App-logo-spin {

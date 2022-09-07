@@ -7,7 +7,7 @@ const ItemCount = ({ onAdd, initial, stock }) => {
 
   //hook de estado
   const [qty, setQty] = useState(initial);
-  const addProduct = (num) => {
+  const handleQty = (num) => {
     setQty(qty + num);
   };
 
@@ -16,7 +16,7 @@ const ItemCount = ({ onAdd, initial, stock }) => {
       <div className="count-container__contador">
         <button
           className="count-container__button"
-          onClick={() => addProduct(-1)}
+          onClick={() => handleQty(-1)}
           disabled={qty === initial}
         >
           -
@@ -24,7 +24,7 @@ const ItemCount = ({ onAdd, initial, stock }) => {
         <span className="count-container__qty">{qty}</span>
         <button
           className="count-container__button"
-          onClick={() => addProduct(+1)}
+          onClick={() => handleQty(+1)}
           disabled={qty === stock}
         >
           +
