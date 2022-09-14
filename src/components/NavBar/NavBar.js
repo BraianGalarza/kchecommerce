@@ -1,4 +1,5 @@
-import logo from '../../logo.svg';
+// import logo from '../../logo.svg';
+import logo from './logopau.png';
 import React from 'react';
 import './NavBar.css';
 import CartWidget from '../CartWidget/CartWidget.jsx';

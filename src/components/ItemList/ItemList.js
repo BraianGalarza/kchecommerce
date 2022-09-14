@@ -5,12 +5,13 @@ const ItemList = ({itemList}) =>{
 
     return(
         <>
-            {itemList.map((producto) => {
+            {itemList.map((item) => {
                     return( <CardBox
-                        name={producto.name}
-                        descripcion={producto.descripcion}
-                        precio={producto.precio}
-                        image={producto.image}
+                        key={item.id}
+                        name={item.name}
+                        descripcion={item.descripcion}
+                        precio={item.precio}
+                        image={item.image}
                         />
                     );
             })}

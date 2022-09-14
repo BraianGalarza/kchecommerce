@@ -1,0 +1,76 @@
+const data = 
+    {
+        id: 1,
+        name: "Producto 1",
+        descripcion: "Descripcion del producto 1",
+        precio: "$100",
+        image:'https://picsum.photos/200/300',
+        stock: 10,
+        estado: "Nuevo",
+        pago: "Debito/Credito"
+    }
+    // {
+    //     id: 2,
+    //     name: "Producto 2",
+    //     descripcion: "Descripcion 2",
+    //     precio: "$200",
+    //     image:'https://picsum.photos/200/400',
+    //     stock: 10,
+
+    // },
+    // {
+    //     id: 3,
+    //     name: "Producto 3",
+    //     descripcion: "Descripcion 3",
+    //     precio: "$300",
+    //     image:'https://picsum.photos/200/500',
+    //     stock: 10,
+
+    // },
+    // {
+    //     id: 4,
+    //     name: "Producto 4",
+    //     descripcion: "Descripcion 4",
+    //     precio: "$400",
+    //     image:'https://picsum.photos/200/600',
+    //     stock: 10,
+
+    // },
+    // {
+    //     id: 5,
+    //     name: "Producto 5",
+    //     descripcion: "Descripcion 5",
+    //     precio: "$500",
+    //     image:'https://picsum.photos/200/200',
+    //     stock: 10,
+
+    // },
+    // {
+    //     id: 6,
+    //     name: "Producto 6",
+    //     descripcion: "Descripcion 6",
+    //     precio: "$600",
+    //     image:'https://picsum.photos/200/700',
+    //     stock: 10,
+
+    // },
+    // {
+    //     id: 7,
+    //     name: "Producto 7",
+    //     descripcion: "Descripcion 7",
+    //     precio: "$700",
+    //     image:'https://picsum.photos/200/800',
+    //     stock: 10,
+
+    // },
+    // {
+    //     id: 8,
+    //     name: "Producto 8",
+    //     descripcion: "Descripcion 8",
+    //     precio: "$800",
+    //     image:'https://picsum.photos/200/100',
+    //     stock: 10,
+
+    // },
+
+export default data
