@@ -6,6 +6,10 @@ const data = [
         precio: "$100",
         image:'https://picsum.photos/200/300',
         stock: 10,
+        categoria: "herramientas",
+        estado: "Nuevo",
+        pago: "Debito/Credito",
+
     },
     {
         id: 2,
@@ -14,7 +18,9 @@ const data = [
         precio: "$200",
         image:'https://picsum.photos/200/400',
         stock: 10,
-
+        categoria: "herramientas",
+        estado: "Nuevo",
+        pago: "Debito/Credito",
     },
     {
         id: 3,
@@ -23,6 +29,9 @@ const data = [
         precio: "$300",
         image:'https://picsum.photos/200/500',
         stock: 10,
+        categoria: "herramientas",
+        estado: "Nuevo",
+        pago: "Debito/Credito",
 
     },
     {
@@ -32,7 +41,9 @@ const data = [
         precio: "$400",
         image:'https://picsum.photos/200/600',
         stock: 10,
-
+        categoria: "herramientas",
+        estado: "Nuevo",
+        pago: "Debito/Credito",
     },
     {
         id: 5,
@@ -41,6 +52,9 @@ const data = [
         precio: "$500",
         image:'https://picsum.photos/200/200',
         stock: 10,
+        categoria: "tatoos",
+        estado: "Nuevo",
+        pago: "Debito/Credito",
 
     },
     {
@@ -50,6 +64,9 @@ const data = [
         precio: "$600",
         image:'https://picsum.photos/200/700',
         stock: 10,
+        categoria: "tatoos",
+        estado: "Nuevo",
+        pago: "Debito/Credito",
 
     },
     {
@@ -59,6 +76,9 @@ const data = [
         precio: "$700",
         image:'https://picsum.photos/200/800',
         stock: 10,
+        categoria: "tatoos",
+        estado: "Nuevo",
+        pago: "Debito/Credito",
 
     },
     {
@@ -68,6 +88,9 @@ const data = [
         precio: "$800",
         image:'https://picsum.photos/200/100',
         stock: 10,
+        categoria: "tatoos",
+        estado: "Nuevo",
+        pago: "Debito/Credito",
 
     },
 ]

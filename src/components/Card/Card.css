@@ -2,3 +2,8 @@
     align-items: center;
     padding-top: 8%;
 }
+button{
+    text-decoration: none;
+    color: #1e2222;
+    font-weight: bold; 
+}
