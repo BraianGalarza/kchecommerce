@@ -1,8 +1,12 @@
 import React from 'react'
+import ItemCount from '../ItemCount/ItemCount';
 
 
 const ItemDetails=({item})=> {
     console.log(item)
+    const onAdd = (qty) => {
+        alert(`Agregaste ${qty} productos`);
+      };
   return (
     <div className="container">
         <main className="container">
@@ -26,6 +30,7 @@ const ItemDetails=({item})=> {
                                 <li>Estado: {item.estado}</li>
                                 <li>Medios de Pago: {item.pago}</li>
                             </ul>
+                            <ItemCount onAdd={onAdd} initial={0} stock={item.stock} />
                         </div>
                     </div>
                 </div>

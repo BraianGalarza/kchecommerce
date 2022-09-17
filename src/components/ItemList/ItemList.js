@@ -14,7 +14,7 @@ const ItemList = ({itemList}) =>{
                         //     image={item.image}
                         //     />
                         // );
-                    return( <CardBox item = {item}/>
+                    return( <CardBox item={item} key={item.id}/>
                     );
             })}
         </>
