@@ -8,6 +8,9 @@ import { useParams } from "react-router-dom";
 const ItemDetailsContainer = () => {
   const {itemId} = useParams()
   const [item, setItems] = useState({})
+  const onAdd = (qty) => {
+    alert(`Agregaste ${qty} productos`);
+  };
 
   const getData = (id) =>{
       return new Promise((resolve,reject)=>{
